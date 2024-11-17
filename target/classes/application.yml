@@ -1,5 +1,5 @@
 spring:
-    application:
-        name: purchase-microservice
-    config:
-        import: configserver:http://localhost:8888
+  application:
+    name: purchase-microservice
+  config:
+    import: configserver:${CONFIG_SERVER_URL}
